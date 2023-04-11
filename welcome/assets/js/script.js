@@ -11,7 +11,7 @@
 				  {
 					username: "pedroca",
 					password: "2023ppcm",
-					whatsapp: "+5521967255827"
+					whatsapp: "+552167255827"
 				  }
 				];
 				
@@ -32,7 +32,7 @@
 				  "Qual foi o pior momento do nosso relacionamento?",
 				  "Qual a coisa que mais te encanta no Pedro?",
 				  "Qual o melhor presente que ja te dei?",
-				  "Qual é o seu livro favorito?",
+				  "Você tem algum medo?",
 				  "Qual é o seu filme favorito?",
 				  "Qual é a sua música favorita?",
 				  "Algo que sempre me encantou no Pedro:",
@@ -64,6 +64,6 @@
 				function perguntar() {
 				  const user = users.find(user => user.username === username);
 				  const message = prompt("Digite a sua pergunta:");
-				  const url = `https://api.whatsapp.com/send?phone=559991072162&text=${encodeURIComponent(message)}`;
+				  const url = `https://api.whatsapp.com/send?phone=55219672558272&text=${encodeURIComponent(message)}`;
 				  window.open(url, "_blank");
 				}
